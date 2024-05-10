@@ -13,6 +13,14 @@
 		9DA57AAF2BECC17D005EBFBC /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA57AAE2BECC17D005EBFBC /* ImmersiveView.swift */; };
 		9DA57AB12BECC17E005EBFBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA57AB02BECC17E005EBFBC /* Assets.xcassets */; };
 		9DA57AB42BECC17E005EBFBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA57AB32BECC17E005EBFBC /* Preview Assets.xcassets */; };
+		9DA57AD92BED1696005EBFBC /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9DA57AD82BED1696005EBFBC /* gramophone.usdz */; };
+		9DA57ADB2BED1AF3005EBFBC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA57ADA2BED1AF3005EBFBC /* ViewModel.swift */; };
+		9DA57ADD2BED2306005EBFBC /* cake.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9DA57ADC2BED2306005EBFBC /* cake.usdz */; };
+		9DA57ADF2BED231A005EBFBC /* toy.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9DA57ADE2BED231A005EBFBC /* toy.usdz */; };
+		9DA57AE12BEE2C40005EBFBC /* sneaker.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9DA57AE02BEE2C40005EBFBC /* sneaker.usdz */; };
+		9DA57AE32BEE2E5D005EBFBC /* ImmersiveGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA57AE22BEE2E5D005EBFBC /* ImmersiveGameView.swift */; };
+		9DA57AE52BEE3BC8005EBFBC /* ARKitSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA57AE42BEE3BC8005EBFBC /* ARKitSessionManager.swift */; };
+		9DA57AE72BEE5A22005EBFBC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA57AE62BEE5A22005EBFBC /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		9DA57AB02BECC17E005EBFBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DA57AB32BECC17E005EBFBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9DA57AB52BECC17E005EBFBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA57AD82BED1696005EBFBC /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophone.usdz; sourceTree = "<group>"; };
+		9DA57ADA2BED1AF3005EBFBC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		9DA57ADC2BED2306005EBFBC /* cake.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cake.usdz; sourceTree = "<group>"; };
+		9DA57ADE2BED231A005EBFBC /* toy.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy.usdz; sourceTree = "<group>"; };
+		9DA57AE02BEE2C40005EBFBC /* sneaker.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker.usdz; sourceTree = "<group>"; };
+		9DA57AE22BEE2E5D005EBFBC /* ImmersiveGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveGameView.swift; sourceTree = "<group>"; };
+		9DA57AE42BEE3BC8005EBFBC /* ARKitSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitSessionManager.swift; sourceTree = "<group>"; };
+		9DA57AE62BEE5A22005EBFBC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,11 +75,19 @@
 			isa = PBXGroup;
 			children = (
 				9DA57AAA2BECC17D005EBFBC /* VoucherCoodesHackathonApp.swift */,
+				9DA57ADA2BED1AF3005EBFBC /* ViewModel.swift */,
 				9DA57AAC2BECC17D005EBFBC /* ContentView.swift */,
+				9DA57AE62BEE5A22005EBFBC /* DetailView.swift */,
 				9DA57AAE2BECC17D005EBFBC /* ImmersiveView.swift */,
+				9DA57AE22BEE2E5D005EBFBC /* ImmersiveGameView.swift */,
 				9DA57AB02BECC17E005EBFBC /* Assets.xcassets */,
+				9DA57AE02BEE2C40005EBFBC /* sneaker.usdz */,
+				9DA57ADC2BED2306005EBFBC /* cake.usdz */,
+				9DA57AD82BED1696005EBFBC /* gramophone.usdz */,
+				9DA57ADE2BED231A005EBFBC /* toy.usdz */,
 				9DA57AB52BECC17E005EBFBC /* Info.plist */,
 				9DA57AB22BECC17E005EBFBC /* Preview Content */,
+				9DA57AE42BEE3BC8005EBFBC /* ARKitSessionManager.swift */,
 			);
 			path = VoucherCoodesHackathon;
 			sourceTree = "<group>";
@@ -131,6 +155,8 @@
 				Base,
 			);
 			mainGroup = 9DA57A9A2BECC17D005EBFBC;
+			packageReferences = (
+			);
 			productRefGroup = 9DA57AA42BECC17D005EBFBC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -145,8 +171,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA57AD92BED1696005EBFBC /* gramophone.usdz in Resources */,
+				9DA57ADD2BED2306005EBFBC /* cake.usdz in Resources */,
 				9DA57AB42BECC17E005EBFBC /* Preview Assets.xcassets in Resources */,
+				9DA57AE12BEE2C40005EBFBC /* sneaker.usdz in Resources */,
 				9DA57AB12BECC17E005EBFBC /* Assets.xcassets in Resources */,
+				9DA57ADF2BED231A005EBFBC /* toy.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +189,11 @@
 			files = (
 				9DA57AAD2BECC17D005EBFBC /* ContentView.swift in Sources */,
 				9DA57AAB2BECC17D005EBFBC /* VoucherCoodesHackathonApp.swift in Sources */,
+				9DA57ADB2BED1AF3005EBFBC /* ViewModel.swift in Sources */,
 				9DA57AAF2BECC17D005EBFBC /* ImmersiveView.swift in Sources */,
+				9DA57AE52BEE3BC8005EBFBC /* ARKitSessionManager.swift in Sources */,
+				9DA57AE32BEE2E5D005EBFBC /* ImmersiveGameView.swift in Sources */,
+				9DA57AE72BEE5A22005EBFBC /* DetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +259,7 @@
 				SDKROOT = xros;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Debug;
@@ -280,6 +315,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = xros;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
@@ -297,6 +333,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = vouchercodesHackathon;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +360,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = vouchercodesHackathon;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
